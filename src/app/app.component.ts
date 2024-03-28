@@ -1,13 +1,21 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
+  imports: [],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'angular-introduction';
+  name = 'Xaplanteris';
+
+  person ={
+    givenName:'Nikos',
+    surName:'Xaplanteris',
+    age:44,
+    email:'foxnks@gmail.com',
+  };
+
 }
