@@ -1,21 +1,17 @@
 import { Component } from '@angular/core';
+import { PersonTableComponent } from './components/person-table/person-table.component';
 
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [],
+  imports: [PersonTableComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
   name = 'Xaplanteris';
 
-  person ={
-    givenName:'Nikos',
-    surName:'Xaplanteris',
-    age:44,
-    email:'foxnks@gmail.com',
-  };
+  
 
 }
