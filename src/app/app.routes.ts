@@ -4,11 +4,13 @@ import { WelcomeComponent } from './components/welcome/welcome.component';
 import { ComponentInputExampleComponent } from './components/component-input-example/component-input-example.component';
 import { ForDirectiveExampleComponent } from './components/for-directive-example/for-directive-example.component';
 import { SimpleDatabaseExampleComponent } from './components/simple-database-example/simple-database-example.component';
+import { ComponentOutputExampleComponent } from './components/component-output-example/component-output-example.component';
 
 export const routes: Routes = [
     {path:'event-bind-example', component: EventBindExampleComponent},
     {path: '',component:WelcomeComponent},
     {path:'component-input-example',component: ComponentInputExampleComponent},
     {path:'for-directive-example',component:ForDirectiveExampleComponent},
-    {path:'simple-datatable-example',component:SimpleDatabaseExampleComponent}
+    {path:'simple-datatable-example',component:SimpleDatabaseExampleComponent},
+    {path:'component-output-example',component:ComponentOutputExampleComponent}
 ];
