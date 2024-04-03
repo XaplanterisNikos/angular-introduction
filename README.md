@@ -182,6 +182,8 @@
   ```html
   @for (user of users; track user) {
   <app-person-table [person]="user"></app-person-table>
+
+  
   } ## Βήμα 5: Event binding
   ```
 
