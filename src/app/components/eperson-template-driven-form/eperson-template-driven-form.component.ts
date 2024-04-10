@@ -19,5 +19,6 @@ export class EpersonTemplateDrivenFormComponent {
   onSubmit(value:any){
     console.log(value as EPerson)
     this.person.emit(value as EPerson);
+    
   }
 }
