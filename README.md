@@ -671,3 +671,5 @@ getDadJoke() {
     this.router.navigate(['login']);
   }
   ```
+
+  ## Βήμα 16: Υλοποίηση της άσκησης Fun for Nerds
